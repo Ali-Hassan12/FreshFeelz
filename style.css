@@ -91,6 +91,9 @@ button {
 .grid-auto-layout-3 {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
+.grid-auto-layout-4 {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
 .grid-auto-layout-5 {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
@@ -287,6 +290,10 @@ button {
   height: var(--img-size);
 }
 
+.newsletter {
+  background-color: var(--clr-primary-400);
+}
+
 @media screen and (max-width: 1124px) {
   .hero__right {
     width: 100%;
@@ -312,4 +319,17 @@ button {
   .nav__links {
     gap: 20px;
   }
+}
+
+/* .grid-auto-layout-5 div {
+  border: 1px solid black;
+} */
+
+.footer__heading {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+footer a {
+  font-size: 14px;
 }
