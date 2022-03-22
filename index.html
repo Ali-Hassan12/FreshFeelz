@@ -9,18 +9,45 @@
     <script defer src="./app.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1>Fresh for life</h1>
-      <p class="fs-primary-body">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere omnis
-        optio illum illo! Blanditiis distinctio, culpa velit, iusto reiciendis
-        eum fugiat quisquam eos porro, quas voluptatum possimus error sed
-        officiis molestias quod et nulla vitae. Possimus, aliquid modi? Cum
-        quisquam accusamus tenetur pariatur quasi. Numquam tempora veritatis
-        excepturi harum natus.
-      </p>
-      <a href="" class="primary-btn">Discover Services Near Me</a>
-      <a href="" class="primary-btn">Join Now</a>
-    </div>
+    <header>
+      <nav class="header__nav flex space-between align-start">
+        <img src="./img/logo.png" class="header__logo" />
+        <ul class="nav__links flex align-center gap-3">
+          <li><a href="">For Vendors</a></li>
+          <li><a href="">Sign Up</a></li>
+          <li><a href="">Log in</a></li>
+          <li>
+            <button>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <nav class="header__nav--mobile"></nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__container flex align-center space-between">
+            <div class="hero__left flex flex-column gap-2">
+              <h1>Fresh for life.</h1>
+              <p class="clr-white fs-primary-body">
+                Stay fresh no matter where you are - for less.
+              </p>
+              <div class="flex align-center gap-1">
+                <a href=""><img src="./img/App-store.png" alt="" /></a>
+                <a href=""> <img src="./img/play-store.png" alt="" /> </a>
+              </div>
+            </div>
+            <div class="hero__right">
+              <img src="./img/phone.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
