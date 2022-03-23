@@ -343,6 +343,10 @@ button {
     flex-direction: column;
     gap: var(--n-4);
   }
+  .newsletter .container {
+    text-align: center !important;
+    flex-direction: column;
+  }
   .hero__left {
     align-items: center;
     text-align: center;
