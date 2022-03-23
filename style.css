@@ -321,6 +321,15 @@ button {
   .features {
     padding-top: 290px;
   }
+  .feature__item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .feature__heading::after {
+    left: 50%;
+    transform: translate(-50%);
+  }
 }
 @media screen and (max-width: 420px) {
   .features {
@@ -361,6 +370,10 @@ button {
 
 footer a {
   font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .card__head {
