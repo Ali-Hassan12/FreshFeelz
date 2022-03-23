@@ -98,7 +98,6 @@ button {
 }
 .grid-auto-layout-3 {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  background-color: aqua;
   align-items: flex-start;
 }
 
@@ -289,6 +288,17 @@ button {
 
 .category {
   background-color: var(--clr-primary-200);
+}
+
+.category__carousel {
+  /* max-width: var(--container-width); */
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 23%;
+  gap: var(--n-2);
+
+  overflow-x: scroll !important;
+  overscroll-behavior-inline: contain;
 }
 
 .category__item p {
